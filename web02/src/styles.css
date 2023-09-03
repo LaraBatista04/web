@@ -1,0 +1,73 @@
+body{
+    background-color:#ffe0ff;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    /* margin: 0;
+    padding: 0;
+    text-align: center; */
+
+}
+input,select, textarea{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border: solid 2px rgb(255, 0, 187);
+    margin: 5px;
+    padding: 5px;
+}
+
+/* seletor por id */
+#btn1 {
+    width: 20%;
+    background-color: fuchsia;
+    color: wheat;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* seletor por apelido */
+.titulo {
+    color: #c33b80;
+    border-bottom: dotted 5px #ff69b4;
+    text-align: center;
+}
+.janela{
+    width: 70%;
+    margin-left: 15%;
+    height: 70vh;
+    background-color:#ffa8d9  ;
+    border: #89004f solid 5px;
+    padding: 10px;
+    box-shadow: 8px 8px 5px 8px #4d002d
+}
+
+label{
+    width: 100px;
+    display: inline-table;
+    text-align: right;
+}
+
+@media screen and (max-width: 420px) and (min-widht: 0px){
+    .janela{
+        width: 70%;
+        margin-left: 15%;
+        height: 90vh;
+        background-color:#ffa8d9  ;
+        border: #89004f solid 5px;
+        padding: 10px;
+        box-shadow: 8px 8px 5px 8px #4d002d
+    }
+    input, select, textarea{
+        width: 90%;
+        display: block;
+    }
+    label{
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+    #btn1{
+        width: 90%;
+    }
+}
