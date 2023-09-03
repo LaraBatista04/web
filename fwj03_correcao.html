@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<form>
+			<span id="formulario">
+				email:</span> 
+			<input type="email" id="em"
+					required placeholder="entre com o seu email"><br>
+			<span id="formulario">data:</span>
+			<input type="date" 
+			id="dt" required><br>
+			<span id="formulario">Numero:</span> 
+			<input type="number" id="nu" required min="1" max="20"
+			step="0.01"><br>
+			<span id="formulario">cidades:
+			</span>
+			<input type="text" id="pe"
+				list="cidades"><br>
+			<datalist id="cidades">
+				<option>Scs</option>		
+				<option>Sbc</option>		
+				<option>São Paulo</option>
+				<option>Diadema</option>			
+			</datalist>
+			<button>Enviar</button>
+		</form>
+		<p>paragrafo1 paragrafo1 paragrafo1</p>
+		<p class="destaque">paragrafo2 paragrafo2 paragrafo2</p>
+	</body>
+</html>	

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head><h1 class = "titulo">
+    <!-- <font color="red" size="14px" face="times roman"> -->
+      Contato
+    <!-- </font> -->
+  </h1>
+</head>
+<body>
+  <i>
+    <form class = "janela">
+
+      <!-- <font face="times roman" size="5px"> -->
+        Seja bem vindo, preencha o <b>formulário</b> abaixo para:
+        <ul>
+          <li> Dúvidas</li>
+          <li> Sugestões</li>
+          <li> Críticas</li>
+    <li> Orçamentos</li>
+  </ul>
+  Caso queira ver nossos produtos, clique <font color="blue"><u>aqui</u></font>:
+    <!-- </font> -->
+  <br><br><br>
+</i>
+  <form><font size="4px">
+  <lable>nome:</lable> <input type="text" id="nome" placeholder="digite seu nome completo" size="50" required pattern="[A-z\s]{6,100}"
+  title="Informe somente letras"><br>
+  <lable>email:</lable> <input type="email" id="email" placeholder="digite seu email" size="50" required><br>
+  <lable>Telefone:</lable>
+    <input type="text" id="telefone" placeholder="digite seu telefone" required pattern="[0-9]{4,5}-[0-9]{4}"
+    alt="informe no padrão 99999-9999"><br>
+    <lable>Assuntos:</lable>
+    <select id="Duvidas">
+      <option selected value=>Dúvidas</option>
+      <option value=>Sugestões</option>
+      <option value=>Críticas</option>
+      <option value=>Orçamentos</option> 
+    </select><br> 
+    <lable>Deseja receber uma cópia deste e-mail:</lable>
+    <input type="radio" id="opS" name="termos">Sim
+    <input type="radio" id="opN" name="termos">Não <br>
+    <label>Mensagens:</label> 
+    <textarea id="obs" rows="4" cols="50" placeholder="digite sua mensagem"></textarea><br>
+  </font>
+    <button id ="btn1">Enviar</button>
+  </form>
+</form>
+</body>
+</html>
